@@ -1,0 +1,17 @@
+{
+  "name": "@hayatedonn/single-flight",
+  "version": "0.1.0",
+  "description": "Deduplicate concurrent async calls by key (single-flight), with optional TTL cache. Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "default": "./index.js" } },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["single-flight", "dedupe", "deduplicate", "async", "promise", "memoize", "cache", "in-flight", "zero-dependency"],
+  "repository": { "type": "git", "url": "git+https://github.com/HaYaTedonn/single-flight.git" },
+  "author": "Hayate Suzuki",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "sideEffects": false
+}
