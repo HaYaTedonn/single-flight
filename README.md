@@ -9,12 +9,12 @@ Great for collapsing duplicate network requests — e.g. ten components asking f
 
 ## Install
 ```bash
-npm install @hayatedonn/single-flight
+npm install @suzukihayate/single-flight
 ```
 
 ## Usage
 ```js
-import { singleFlight } from '@hayatedonn/single-flight';
+import { singleFlight } from '@suzukihayate/single-flight';
 
 const getUser = singleFlight(async (id) => {
   const res = await fetch(`/api/users/${id}`);

@@ -1,5 +1,5 @@
 {
-  "name": "@hayatedonn/single-flight",
+  "name": "@suzukihayate/single-flight",
   "version": "0.1.0",
   "description": "Deduplicate concurrent async calls by key (single-flight), with optional TTL cache. Zero dependencies.",
   "type": "module",
